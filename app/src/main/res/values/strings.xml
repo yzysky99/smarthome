@@ -1,0 +1,136 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<string name="app_name">SmartHome</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">注册</string>
+    <string name="error_invalid_phone">输入的手机号不正确</string>
+    <string name="error_invalid_password">输入的密码太短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">名称不能为空</string>
+    <string name="no_account_and_register">没有账户？现在注册</string>
+    <string name="login_failed">登录失败</string>
+
+    <string name="prompt_name">名称</string>
+    <string name="register">注册</string>
+    <string name="register_success">注册成功,请登录</string>
+    <string name="have_account_and_login">已有账户？登录</string>
+    <string name="error_invalid_name">昵称不能为空</string>
+    <string name="error_register">注册失败</string>
+    <string name="email">邮箱</string>
+
+    <string name="user_info_edit">修改信息</string>
+    <string name="title_activity_avatar">图片详情</string>
+    <string name="title_activity_user_info_edit">UserInfoEditActivity</string>
+
+    <string name="user_nickname">昵称</string>
+    <string name="user_avatar">头像</string>
+    <string name="user_signature">个性签名</string>
+    <string name="user_address">我的地址</string>
+    <string name="user_password_edit">修改密码</string>
+
+    <string name="button_save">提交</string>
+    <string name="title_activity_edit_nickname">修改昵称</string>
+    <string name="title_activity_edit_sinagture">修改签名</string>
+    <string name="title_activity_edit_password">修改密码</string>
+
+    <string name="old_password">旧密码: </string>
+    <string name="new_password">新密码: </string>
+    <string name="confirm_password">确认密码: </string>
+
+    <string name="please_input_old_password">请输入旧密码</string>
+    <string name="please_input_new_password">请输入新密码</string>
+    <string name="please_input_new2_password">请再次输入新密码</string>
+
+
+    <string name="nickname_need_not_empty">昵称不能为空</string>
+    <string name="nickname_not_change">昵称没有改变</string>
+
+    <string name="new_passowrd_need_not_empty">新密码不能为空</string>
+    <string name="passowrd_not_change">密码没有改变</string>
+    <string name="input_old_passowrd_error">旧密码错误</string>
+    <string name="input_passowrd_not_same">二次输入密码不相同</string>
+
+    <string name="about">关于</string>
+    <string name="suggest">建议与反馈</string>
+    <string name="version_info">版本信息</string>
+    <string name="btn_logout">退出登录</string>
+
+    <string name="switch_outlet">开关</string>
+    <string name="smart_light">智能灯</string>
+    <string name="air_conditioner">空调</string>
+    <string name="refrigerator">冰箱</string>
+    <string name="television">电视</string>
+    <string name="curtains">窗帘</string>
+    <string name="water_heater">热水器</string>
+    <string name="camera">摄像头</string>
+
+    <string name="smart_home_title">智能家居设备</string>
+
+    <string name="camera_device">监控终端</string>
+    <string name="camera_device_data">摄像头数据</string>
+
+    <string name="add_device">＋添加设备</string>
+    <string name="qr_add_device">扫描二维码</string>
+    <string name="auto_add_device">自动添加</string>
+    <string name="soft_ap_add_device">AP模式添加</string>
+    <string name="manual_add_device">手工添加</string>
+
+    <string name="device_id">设备ID: </string>
+    <string name="device_tips">请输入设备ID</string>
+
+    <string name="config_start">开始配置WIFI</string>
+    <string name="start">开始</string>
+
+    <string name="tv_ssid">热点:</string>
+    <string name="tv_password">密码:</string>
+
+    <string name="send_wifi">发送WIFI</string>
+    <string name="wifi_pass">WIFI密码   </string>
+
+    <string name="wifi">选择WIFI</string>
+
+    <string name="button_ok">OK</string>
+
+    <string name="add_device_way">添加设备方式</string>
+    <string name="auto_config">自动配置</string>
+
+    //智能开关
+    <string name="switch_control">开关控制</string>
+    <string name="switch_online">在线</string>
+    <string name="switch_offline">离线</string>
+    <string name="switch_on">打开</string>
+    <string name="switch_off">关闭</string>
+    <string name="switch_subscribe">预约</string>
+    <string name="switch_time">2017-09-10 12:00</string>
+
+
+    <string name="get_audio_command">收到的消息:</string>
+
+
+    //rtmp player
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="text">Text</string>
+    <string name="retry">Retry</string>
+    <string name="selection_disabled">Disabled</string>
+    <string name="selection_default">Default</string>
+    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="enable_random_adaptation">Enable random adaptation</string>
+    <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="error_drm_unknown">An unknown DRM error occurred</string>
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+    <string name="ima_not_loaded">Playing sample without ads, as the IMA extension was not loaded</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_device"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.smarthome.device.AddDeviceActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_size"
+        android:background="@color/status_bar" >
+
+        <TextView
+            android:id="@+id/smart_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/add_device_way"
+            android:textSize="@dimen/text_size_24sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/qr_code_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise"
+        android:layout_marginTop="@dimen/margin_size_20"
+        android:text="@string/qr_add_device"/>
+
+    <Button
+        android:id="@+id/auto_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise"
+        android:layout_marginTop="@dimen/margin_size_20"
+        android:text="@string/auto_add_device"/>
+
+    <Button
+        android:id="@+id/softAP_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise"
+        android:layout_marginTop="@dimen/margin_size_20"
+        android:text="@string/soft_ap_add_device"/>
+
+    <Button
+        android:id="@+id/manual_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise"
+        android:layout_marginTop="@dimen/margin_size_20"
+        android:text="@string/manual_add_device"/>
+</LinearLayout>

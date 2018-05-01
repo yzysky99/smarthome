@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smarthome.device.activity.ActivityMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/open_voice_monitoring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_voice_monitoring"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/open_video_monitoring"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/open_video_monitoring"/>-->
+
+        <Button
+            android:id="@+id/open_video_push"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_video_push"/>
+
+        <Button
+            android:id="@+id/open_video_push_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_video_push_new"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/open_video_play"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/open_video_play"/>-->
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

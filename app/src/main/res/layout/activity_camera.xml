@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.smarthome.ui.CameraActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_size"
+        android:background="@color/status_bar" >
+
+        <TextView
+            android:id="@+id/smart_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/camera_device"
+            android:textSize="@dimen/text_size_24sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:text="@string/get_audio_command"
+        android:textColor="@color/black" />
+
+    <ScrollView
+        android:id="@+id/stroll_text"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/text_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:textColor="@color/black"
+            android:textIsSelectable="true" />
+    </ScrollView>
+
+    <!--<TextView-->
+        <!--android:text="IP地址"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/ipAddress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="http://192.168.0.102:8080/?action=snapshot"/>-->
+
+    <Button
+        android:id="@+id/camera_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内网摄像头"
+        android:visibility="gone"/>
+
+    <!--<EditText-->
+        <!--android:id="@+id/remoteIPAddress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="192.168.0.101"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/remoteIpPort"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="number"-->
+        <!--android:text="8068"/>-->
+
+    <Button
+        android:id="@+id/remote_camera_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_size_20"
+        android:text="查看监控画面"/>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':app', ':zxinglib', ":library-ui", ":library-core",':device', ":librtmpsdk", ":librtmp",":rtmpdevice"

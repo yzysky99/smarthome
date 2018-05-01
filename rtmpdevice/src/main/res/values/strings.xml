@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">rtmpDevice</string>
+
+    <string name="start_push">开启监控</string>
+    <string name="on_the_push">监控中</string>
+    <string name="stop_push">停止监控</string>
+</resources>

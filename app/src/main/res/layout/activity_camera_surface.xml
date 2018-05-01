@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera_surface"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.smarthome.ui.CameraSurfaceActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_size"
+        android:background="@color/status_bar" >
+
+        <TextView
+            android:id="@+id/smart_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/camera_device_data"
+            android:textSize="@dimen/text_size_24sp" />
+    </RelativeLayout>
+
+    <SurfaceView
+        android:id="@+id/camera_surface"
+        android:layout_width="480dp"
+        android:layout_height="380dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/contrast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/saturation">
+
+            <Button
+                android:id="@+id/contrast_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="对比度+"/>
+
+            <Button
+                android:id="@+id/contrast_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/contrast_plus"
+                android:text="对比度-"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/saturation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/brightness">>
+
+            <Button
+                android:id="@+id/saturation_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="饱和度+"/>
+
+            <Button
+                android:id="@+id/saturation_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/saturation_plus"
+                android:text="饱和度-"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/brightness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/focus">
+
+            <Button
+                android:id="@+id/brightness_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="亮度+"/>
+
+            <Button
+                android:id="@+id/brightness_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/brightness_plus"
+                android:text="亮度-"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/focus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/focus_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="对焦+"/>
+
+            <Button
+                android:id="@+id/focus_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/focus_plus"
+                android:text="对焦-"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

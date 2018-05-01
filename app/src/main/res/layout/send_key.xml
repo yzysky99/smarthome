@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_size"
+        android:background="@color/status_bar" >
+
+        <TextView
+            android:id="@+id/smart_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/send_wifi"
+            android:textSize="@dimen/text_size_24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/wifissid_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SSID:"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/wifissid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+         <TextView
+            android:id="@+id/wifipass_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password:"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/wifi_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:inputType="textPassword"
+            android:textSize="20dp"/>
+        </LinearLayout>
+
+         <Button
+            android:id="@+id/b_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wifi_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_ok" />
+    </LinearLayout>
+</RelativeLayout>

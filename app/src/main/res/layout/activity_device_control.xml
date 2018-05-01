@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_device_control"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_size"
+        android:background="@color/status_bar" >
+
+        <TextView
+            android:id="@+id/smart_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/switch_control"
+            android:textSize="@dimen/text_size_24sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/switch_online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/title_bar"
+        android:layout_marginTop="@dimen/margin_size_20"
+        android:textColor="@color/darkgray"
+        android:text="@string/switch_online"/>
+
+    <ImageButton
+        android:id="@+id/switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/margin_size_20"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_size_20"
+        android:background="@mipmap/switch_off"
+        android:text="@string/switch_off"/>
+
+    <TextView
+        android:id="@+id/switch_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_20sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/switch_off"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_size_10"
+        android:layout_marginTop="@dimen/margin_size_20">
+
+        <ImageButton
+            android:id="@+id/switch_subscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_20sp"
+            android:layout_gravity="center"
+            android:background="@mipmap/button_subscribe"
+            android:text="@string/switch_subscribe"/>
+
+        <TextView
+            android:id="@+id/subscribe_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_20sp"
+            android:layout_marginLeft="@dimen/margin_size_6"
+            android:layout_marginTop="@dimen/margin_size_10"
+            android:text="@string/switch_time"/>
+    </LinearLayout>
+
+</LinearLayout>

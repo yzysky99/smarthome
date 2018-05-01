@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml:17:1-55
+INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml:17:1-55
+INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml:17:1-55
+	package
+		ADDED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml:17:11-53
+		INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+uses-sdk
+INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+		ADDED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+		ADDED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevyang/smart/ExoPlayer-r2.6.0/library/ui/src/main/AndroidManifest.xml
