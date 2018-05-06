@@ -1,3 +1,3 @@
-E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rtmp_device.dir
-E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rtmp_device.dir

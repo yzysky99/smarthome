@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.android.smarthome.MyApplication;
 import com.android.smarthome.R;
 import com.android.smarthome.rtmpplayer.PlayerActivity;
+import com.android.smarthome.utils.Constants;
 import com.android.smarthome.utils.Utils;
 import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
@@ -117,10 +118,8 @@ public class CameraActivity extends AppCompatActivity {
         remoteCameraBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String serverUrl = "rtmp://119.23.240.132:1935/live/12345";
-
                 Intent intent = new Intent(CameraActivity.this, PlayerActivity.class);
-                intent.setData(Uri.parse(serverUrl));
+                intent.setData(Uri.parse(Constants.serverUrl));
                 intent.putExtra(PlayerActivity.PREFER_EXTENSION_DECODERS, false);
                 intent.setAction(PlayerActivity.ACTION_VIEW);
                 startActivity(intent);

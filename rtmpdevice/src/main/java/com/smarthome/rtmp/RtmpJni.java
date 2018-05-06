@@ -10,8 +10,8 @@ public final class RtmpJni {
     private long timeOffset;
     public RtmpJni(){}
 
-    public int initRtmp(String url, int width, int height, int timeOut) {
-        ptClass = nativeInitRtmp(url, width, height, timeOut);
+    public int initRtmp(String url, int width, int height, int timeOut, int publishType) {
+        ptClass = nativeInitRtmp(url, width, height, timeOut, publishType);
         if (ptClass != 0) {
             return 0;
         }
@@ -57,7 +57,7 @@ public final class RtmpJni {
         }
     }
 
-    static native long nativeInitRtmp(String url, int width, int height, int timeOut);
+    static native long nativeInitRtmp(String url, int width, int height, int timeOut, int publishType);
     static native int nativePushSpsPpsData(long ptClass, byte[] sps, int spsLen, byte[] pps,
                                     int ppsLen, long timestamp);
     static native int nativePushVideoData(long ptClass, byte[] data, int len, long timestamp);

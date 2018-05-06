@@ -1,3 +1,3 @@
-E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rtmp-jni.dir
-E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rtmp-jni.dir

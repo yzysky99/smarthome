@@ -102,7 +102,12 @@ extern "C"
 #define RTMP_PACKET_SIZE_SMALL    2
 #define RTMP_PACKET_SIZE_MINIMUM  3
 
-  typedef struct RTMPChunk
+#define RTMP_LF_SWFV 0x0004 /* do SWF verification */
+#define RTMP_LF_PUBLISH_LIVE 0x0040 /* publish in LIVE */
+#define RTMP_LF_PUBLISH_RECORD 0x0080 /* publish in RECORD */
+#define RTMP_LF_PUBLISH_APPEND 0x0100 /* publish in APPEND */
+
+typedef struct RTMPChunk
   {
     int c_headerSize;
     int c_chunkSize;

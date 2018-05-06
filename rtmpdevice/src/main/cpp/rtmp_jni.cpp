@@ -6,11 +6,11 @@ extern "C" {
 
 JNIEXPORT jlong JNICALL
 Java_com_smarthome_rtmp_RtmpJni_nativeInitRtmp(JNIEnv *env, jclass type, jstring url, jint width, jint height,
-                                         jint timeOut) {
+                                         jint timeOut, jint publishType) {
 
     const char *c_url = env->GetStringUTFChars(url, 0);
     RtmpInterface *rtmpInterface = new RtmpInterface();
-    rtmpInterface->initRtmp(c_url, width, height, timeOut);
+    rtmpInterface->initRtmp(c_url, width, height, timeOut, publishType);
 
     env->ReleaseStringUTFChars(url, c_url);
     return reinterpret_cast<long> (rtmpInterface);

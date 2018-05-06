@@ -5,8 +5,6 @@ import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.util.Log;
 
-import com.smarthome.rtmp.utils.Constants;
-
 /**
  * Created by stevyang on 17/10/7.
  */

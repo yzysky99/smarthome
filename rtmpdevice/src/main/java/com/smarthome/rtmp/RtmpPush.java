@@ -5,12 +5,12 @@ import android.media.MediaCodec;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
-import com.smarthome.rtmp.utils.Constants;
-
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import com.smarthome.rtmp.utils.Constants;
 
 public class RtmpPush {
     private static final String TAG = "RtmpPush";
@@ -136,7 +136,7 @@ public class RtmpPush {
             public void run() {
                 int ret = mRtmpJni.initRtmp(Constants.RTMP_URL,
                         mVideoDataRecord.getPreviewWidth(),
-                        mVideoDataRecord.getPreviewHeight(), Constants.RTMP_TIMEOUT);
+                        mVideoDataRecord.getPreviewHeight(), Constants.RTMP_TIMEOUT, Constants.RTMP_PUBLISH_MODE);
                 if (ret < 0) {
                     Log.e(TAG, "init rtmp failed!");
                     return;

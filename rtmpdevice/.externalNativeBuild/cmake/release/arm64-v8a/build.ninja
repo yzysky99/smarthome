@@ -29,90 +29,12 @@ ninja_required_version = 1.5
 
 include rules.ninja
 
-# =============================================================================
-# Object build statements for SHARED_LIBRARY target rtmp_device
-
-build CMakeFiles/rtmp_device.dir/rtmp_jni.cpp.o: CXX_COMPILER__rtmp_device E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/rtmp_jni.cpp
-  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
-  DEP_FILE = CMakeFiles\rtmp_device.dir\rtmp_jni.cpp.o.d
-  FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC
-  INCLUDES = -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/include/librtmp -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp -isystem D:/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem D:/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem D:/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = E:\Workspaces\smartHome\rtmpdevice\src\main\cpp\rtmp_jni.cpp
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  OBJECT_FILE_DIR = CMakeFiles\rtmp_device.dir
-build CMakeFiles/rtmp_device.dir/rtmp_interface.cpp.o: CXX_COMPILER__rtmp_device E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/rtmp_interface.cpp
-  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
-  DEP_FILE = CMakeFiles\rtmp_device.dir\rtmp_interface.cpp.o.d
-  FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC
-  INCLUDES = -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/include/librtmp -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp -isystem D:/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem D:/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem D:/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = E:\Workspaces\smartHome\rtmpdevice\src\main\cpp\rtmp_interface.cpp
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  OBJECT_FILE_DIR = CMakeFiles\rtmp_device.dir
-build CMakeFiles/rtmp_device.dir/librtmp/amf.c.o: C_COMPILER__rtmp_device E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/amf.c
-  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
-  DEP_FILE = CMakeFiles\rtmp_device.dir\librtmp\amf.c.o.d
-  FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
-  INCLUDES = -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/include/librtmp -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
-  IN_ABS = E:\Workspaces\smartHome\rtmpdevice\src\main\cpp\librtmp\amf.c
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  OBJECT_FILE_DIR = CMakeFiles\rtmp_device.dir\librtmp
-build CMakeFiles/rtmp_device.dir/librtmp/hashswf.c.o: C_COMPILER__rtmp_device E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/hashswf.c
-  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
-  DEP_FILE = CMakeFiles\rtmp_device.dir\librtmp\hashswf.c.o.d
-  FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
-  INCLUDES = -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/include/librtmp -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
-  IN_ABS = E:\Workspaces\smartHome\rtmpdevice\src\main\cpp\librtmp\hashswf.c
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  OBJECT_FILE_DIR = CMakeFiles\rtmp_device.dir\librtmp
-build CMakeFiles/rtmp_device.dir/librtmp/log.c.o: C_COMPILER__rtmp_device E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/log.c
-  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
-  DEP_FILE = CMakeFiles\rtmp_device.dir\librtmp\log.c.o.d
-  FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
-  INCLUDES = -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/include/librtmp -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
-  IN_ABS = E:\Workspaces\smartHome\rtmpdevice\src\main\cpp\librtmp\log.c
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  OBJECT_FILE_DIR = CMakeFiles\rtmp_device.dir\librtmp
-build CMakeFiles/rtmp_device.dir/librtmp/parseurl.c.o: C_COMPILER__rtmp_device E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/parseurl.c
-  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
-  DEP_FILE = CMakeFiles\rtmp_device.dir\librtmp\parseurl.c.o.d
-  FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
-  INCLUDES = -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/include/librtmp -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
-  IN_ABS = E:\Workspaces\smartHome\rtmpdevice\src\main\cpp\librtmp\parseurl.c
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  OBJECT_FILE_DIR = CMakeFiles\rtmp_device.dir\librtmp
-build CMakeFiles/rtmp_device.dir/librtmp/rtmp.c.o: C_COMPILER__rtmp_device E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/rtmp.c
-  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
-  DEP_FILE = CMakeFiles\rtmp_device.dir\librtmp\rtmp.c.o.d
-  FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
-  INCLUDES = -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/include/librtmp -IE:/Workspaces/smartHome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
-  IN_ABS = E:\Workspaces\smartHome\rtmpdevice\src\main\cpp\librtmp\rtmp.c
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  OBJECT_FILE_DIR = CMakeFiles\rtmp_device.dir\librtmp
-
-# =============================================================================
-# Link build statements for SHARED_LIBRARY target rtmp_device
-
-
-#############################################
-# Link the shared library E:\Workspaces\smartHome\rtmpdevice\build\intermediates\cmake\release\obj\arm64-v8a\librtmp_device.so
-
-build E$:/Workspaces/smartHome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so: CXX_SHARED_LIBRARY_LINKER__rtmp_device CMakeFiles/rtmp_device.dir/rtmp_jni.cpp.o CMakeFiles/rtmp_device.dir/rtmp_interface.cpp.o CMakeFiles/rtmp_device.dir/librtmp/amf.c.o CMakeFiles/rtmp_device.dir/librtmp/hashswf.c.o CMakeFiles/rtmp_device.dir/librtmp/log.c.o CMakeFiles/rtmp_device.dir/librtmp/parseurl.c.o CMakeFiles/rtmp_device.dir/librtmp/rtmp.c.o | D$:/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot D:/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
-  LINK_LIBRARIES = -llog -latomic -lm "D:/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a"
-  OBJECT_DIR = CMakeFiles\rtmp_device.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  SONAME = librtmp_device.so
-  SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = E:\Workspaces\smartHome\rtmpdevice\build\intermediates\cmake\release\obj\arm64-v8a\librtmp_device.so
-  TARGET_PDB = rtmp_device.so.dbg
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Workspaces\smartHome\rtmpdevice\.externalNativeBuild\cmake\release\arm64-v8a && D:\Android\sdk\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cd /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a && /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -121,16 +43,94 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Workspaces\smartHome\rtmpdevice\.externalNativeBuild\cmake\release\arm64-v8a && D:\Android\sdk\cmake\3.6.4111459\bin\cmake.exe -HE:\Workspaces\smartHome\rtmpdevice\src\main\cpp -BE:\Workspaces\smartHome\rtmpdevice\.externalNativeBuild\cmake\release\arm64-v8a"
+  COMMAND = cd /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a && /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp -B/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target rtmp_device
+
+build CMakeFiles/rtmp_device.dir/rtmp_jni.cpp.o: CXX_COMPILER__rtmp_device /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/rtmp_jni.cpp
+  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
+  DEP_FILE = CMakeFiles/rtmp_device.dir/rtmp_jni.cpp.o.d
+  FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/rtmp_jni.cpp
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  OBJECT_FILE_DIR = CMakeFiles/rtmp_device.dir
+build CMakeFiles/rtmp_device.dir/rtmp_interface.cpp.o: CXX_COMPILER__rtmp_device /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/rtmp_interface.cpp
+  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
+  DEP_FILE = CMakeFiles/rtmp_device.dir/rtmp_interface.cpp.o.d
+  FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/rtmp_interface.cpp
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  OBJECT_FILE_DIR = CMakeFiles/rtmp_device.dir
+build CMakeFiles/rtmp_device.dir/librtmp/amf.c.o: C_COMPILER__rtmp_device /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/amf.c
+  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
+  DEP_FILE = CMakeFiles/rtmp_device.dir/librtmp/amf.c.o.d
+  FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
+  IN_ABS = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/amf.c
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  OBJECT_FILE_DIR = CMakeFiles/rtmp_device.dir/librtmp
+build CMakeFiles/rtmp_device.dir/librtmp/hashswf.c.o: C_COMPILER__rtmp_device /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/hashswf.c
+  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
+  DEP_FILE = CMakeFiles/rtmp_device.dir/librtmp/hashswf.c.o.d
+  FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
+  IN_ABS = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/hashswf.c
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  OBJECT_FILE_DIR = CMakeFiles/rtmp_device.dir/librtmp
+build CMakeFiles/rtmp_device.dir/librtmp/log.c.o: C_COMPILER__rtmp_device /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/log.c
+  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
+  DEP_FILE = CMakeFiles/rtmp_device.dir/librtmp/log.c.o.d
+  FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
+  IN_ABS = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/log.c
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  OBJECT_FILE_DIR = CMakeFiles/rtmp_device.dir/librtmp
+build CMakeFiles/rtmp_device.dir/librtmp/parseurl.c.o: C_COMPILER__rtmp_device /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/parseurl.c
+  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
+  DEP_FILE = CMakeFiles/rtmp_device.dir/librtmp/parseurl.c.o.d
+  FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
+  IN_ABS = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/parseurl.c
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  OBJECT_FILE_DIR = CMakeFiles/rtmp_device.dir/librtmp
+build CMakeFiles/rtmp_device.dir/librtmp/rtmp.c.o: C_COMPILER__rtmp_device /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/rtmp.c
+  DEFINES = -DNO_CRYPTO -Drtmp_device_EXPORTS
+  DEP_FILE = CMakeFiles/rtmp_device.dir/librtmp/rtmp.c.o.d
+  FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC
+  INCLUDES = -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp
+  IN_ABS = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/rtmp.c
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  OBJECT_FILE_DIR = CMakeFiles/rtmp_device.dir/librtmp
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target rtmp_device
+
+
+#############################################
+# Link the shared library /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
+
+build /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so: CXX_SHARED_LIBRARY_LINKER__rtmp_device CMakeFiles/rtmp_device.dir/rtmp_jni.cpp.o CMakeFiles/rtmp_device.dir/rtmp_interface.cpp.o CMakeFiles/rtmp_device.dir/librtmp/amf.c.o CMakeFiles/rtmp_device.dir/librtmp/hashswf.c.o CMakeFiles/rtmp_device.dir/librtmp/log.c.o CMakeFiles/rtmp_device.dir/librtmp/parseurl.c.o CMakeFiles/rtmp_device.dir/librtmp/rtmp.c.o | /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/liblog.so
+  LANGUAGE_COMPILE_FLAGS = -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
+  LINK_LIBRARIES = -llog -latomic -lm "/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a"
+  OBJECT_DIR = CMakeFiles/rtmp_device.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = librtmp_device.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
+  TARGET_PDB = rtmp_device.so.dbg
+# =============================================================================
 # Target aliases.
 
-build librtmp_device.so: phony E$:/Workspaces/smartHome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
-build rtmp_device: phony E$:/Workspaces/smartHome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
+build librtmp_device.so: phony /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
+build rtmp_device: phony /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
 # =============================================================================
 # Folder targets.
 
@@ -142,7 +142,7 @@ build rtmp_device: phony E$:/Workspaces/smartHome/rtmpdevice/build/intermediates
 #############################################
 # The main all target.
 
-build all: phony E$:/Workspaces/smartHome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
+build all: phony /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so
 
 #############################################
 # Make the all target the default.
@@ -152,13 +152,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake D$:/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake D$:/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake D$:/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake E$:/Workspaces/smartHome/rtmpdevice/src/main/cpp/CMakeLists.txt: phony
+build /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx: phony
 
 #############################################
 # Clean all the built files.

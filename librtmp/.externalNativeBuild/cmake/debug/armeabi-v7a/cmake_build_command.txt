@@ -1,15 +1,15 @@
-Executable : D:\Android\sdk\cmake\3.6.4111459\bin\cmake.exe
+Executable : /Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
 arguments : 
--HE:\Workspaces\smartHome\librtmp
--BE:\Workspaces\smartHome\librtmp\.externalNativeBuild\cmake\debug\armeabi-v7a
+-H/Users/yangzhiyong/Workspaces/smarthome/librtmp
+-B/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
 -DANDROID_PLATFORM=android-19
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Workspaces\smartHome\librtmp\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/yangzhiyong/Workspaces/smarthome/librtmp/build/intermediates/cmake/debug/obj/armeabi-v7a
 -DCMAKE_BUILD_TYPE=Debug
--DANDROID_NDK=D:\Android\sdk\ndk-bundle
+-DANDROID_NDK=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle
 -DCMAKE_CXX_FLAGS=-frtti -fexceptions
--DCMAKE_TOOLCHAIN_FILE=D:\Android\sdk\ndk-bundle\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=D:\Android\sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
 -GAndroid Gradle - Ninja
 -DANDROID_PLATFORM=android-19
 jvmArgs : 

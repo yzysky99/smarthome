@@ -1,10 +1,15 @@
 package com.smarthome.device.utils;
 
+import android.media.AudioFormat;
+
 /**
  * Created by stevyang on 2017/8/28.
  */
 
 public class Constants {
+
+    public boolean isDebug = true;
+    public boolean isRed5 = true;
 
     //test IP and port
     public static final String IP_ADDRESS = "192.168.0.103";
@@ -14,7 +19,9 @@ public class Constants {
 //    public static final String IP_ADDRESS = "119.23.240.132"; //"192.168.1.105";
 //    public static final int PORT = 8100;
 
-    public static final String RTMP_URL = "rtmp://119.23.240.132:1935/live/12345";
+//    public static final String RTMP_URL = "rtmp://119.23.240.132:1935/live/12345";
+    public static final String RTMP_URL = "rtmp://192.168.2.103:1935/oflaDemo/stream12345";
+
 
     public static final int ASR_RESULT_MSG = 10000;
 
@@ -38,5 +45,6 @@ public class Constants {
     public static final String DEVICE_MSG = "device";
 
     public static final String DEVICE_DATA = "data";
+
 
 }

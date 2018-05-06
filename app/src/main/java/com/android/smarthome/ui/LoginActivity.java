@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Paint;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -21,24 +20,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.smarthome.Constants;
+import com.android.smarthome.utils.Constants;
 import com.android.smarthome.network.TcpClient;
-import com.android.smarthome.service.MinaClientHandler;
 import com.android.smarthome.widget.ToastView;
 import com.android.smarthome.R;
 
-import org.apache.mina.core.future.ConnectFuture;
-import org.apache.mina.core.service.IoConnector;
-import org.apache.mina.core.session.IoSession;
-import org.apache.mina.filter.codec.ProtocolCodecFilter;
-import org.apache.mina.filter.codec.textline.LineDelimiter;
-import org.apache.mina.filter.codec.textline.TextLineCodecFactory;
-import org.apache.mina.transport.socket.nio.NioSocketConnector;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.net.InetSocketAddress;
-import java.nio.charset.Charset;
 
 public class LoginActivity extends Activity {
     private static final String TAG = "LoginActivity";
@@ -93,19 +81,19 @@ public class LoginActivity extends Activity {
 
         mProgressView = findViewById(R.id.login_progress);
 
-        mShared = getSharedPreferences(Constants.USER_INFO, Context.MODE_WORLD_READABLE);
-        mEditor = mShared.edit();
-
-        boolean isLogin = mShared.getBoolean(Constants.UserInfo.IS_LOGIN, false);
-        Log.d(TAG,"isLogin: " + isLogin);
-        if (isLogin) {
+//        mShared = getSharedPreferences(Constants.USER_INFO, Context.MODE_WORLD_READABLE);
+//        mEditor = mShared.edit();
+//
+//        boolean isLogin = mShared.getBoolean(Constants.UserInfo.IS_LOGIN, false);
+//        Log.d(TAG,"isLogin: " + isLogin);
+//        if (isLogin) {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
             finish();
-        } else {
-            mEditor.putBoolean(Constants.UserInfo.IS_LOGIN, false);
-            mEditor.commit();
-        }
+//        } else {
+//            mEditor.putBoolean(Constants.UserInfo.IS_LOGIN, false);
+//            mEditor.commit();
+//        }
     }
 
     private void attemptLogin() {

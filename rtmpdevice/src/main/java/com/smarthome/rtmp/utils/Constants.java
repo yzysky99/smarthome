@@ -7,7 +7,14 @@ import android.media.AudioFormat;
  */
 
 public class Constants {
-    public static final String RTMP_URL = "rtmp://119.23.240.132:1935/live/12345";
+    public int RTMP_PUBLISH_LIVE = 0x0040;
+    public int RTMP_PUBLISH_RECORD = 0x0080;
+    public int RTMP_PUBLISH_APPEND = 0x0100;
+    public static final int RTMP_PUBLISH_MODE = 0x0080;
+
+//    public static final String RTMP_URL = "rtmp://119.23.240.132:1935/live/12345";
+    public static final String RTMP_URL = "rtmp://192.168.2.103:1935/oflaDemo/stream12345";
+
     public static final int RTMP_FPS = 30;
 
     public static final int RTMP_MIN_WIDTH = 320;

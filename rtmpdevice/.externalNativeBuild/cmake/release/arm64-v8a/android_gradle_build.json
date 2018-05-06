@@ -1,10 +1,13 @@
 
 {
-	"buildFiles" : [ "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/CMakeLists.txt" ],
+	"buildFiles" : 
+	[
+		"/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/CMakeLists.txt"
+	],
 	"cFileExtensions" : [ "c" ],
 	"cleanCommands" : 
 	[
-		"D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Workspaces\\smartHome\\rtmpdevice\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+		"/Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -13,63 +16,63 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "rtmp_device",
-			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Workspaces\\smartHome\\rtmpdevice\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target rtmp_device",
+			"buildCommand" : "/Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a --target rtmp_device",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DNO_CRYPTO -Drtmp_device_EXPORTS -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\include\\librtmp -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\src\\main\\cpp\\librtmp -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/rtmp_jni.cpp",
-					"workingDirectory" : "E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot  -DNO_CRYPTO -Drtmp_device_EXPORTS -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/rtmp_jni.cpp",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DNO_CRYPTO -Drtmp_device_EXPORTS -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\include\\librtmp -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\src\\main\\cpp\\librtmp -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/rtmp_interface.cpp",
-					"workingDirectory" : "E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot  -DNO_CRYPTO -Drtmp_device_EXPORTS -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/rtmp_interface.cpp",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\include\\librtmp -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/amf.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/amf.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\include\\librtmp -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/hashswf.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/hashswf.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\include\\librtmp -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/log.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/log.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\include\\librtmp -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/parseurl.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/parseurl.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\include\\librtmp -IE:\\Workspaces\\smartHome\\rtmpdevice\\src\\main\\cpp\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/rtmpdevice/src/main/cpp/librtmp/rtmp.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_device_EXPORTS -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/include/librtmp -I/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/src/main/cpp/librtmp/rtmp.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/.externalNativeBuild/cmake/release/arm64-v8a"
 				}
 			],
-			"output" : "E:/Workspaces/smartHome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so",
-			"toolchain" : "423535169"
+			"output" : "/Users/yangzhiyong/Workspaces/smarthome/rtmpdevice/build/intermediates/cmake/release/obj/arm64-v8a/librtmp_device.so",
+			"toolchain" : "16219309219427368489"
 		}
 	},
 	"toolchains" : 
 	{
-		"423535169" : 
+		"16219309219427368489" : 
 		{
-			"cCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
 		}
 	}
 }

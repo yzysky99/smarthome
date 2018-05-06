@@ -6,8 +6,6 @@ import android.media.MediaCodecList;
 import android.media.MediaFormat;
 import android.util.Log;
 
-import com.smarthome.rtmp.utils.Constants;
-
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Date;
@@ -20,6 +18,8 @@ import static android.media.MediaFormat.KEY_FRAME_RATE;
 import static android.media.MediaFormat.KEY_I_FRAME_INTERVAL;
 import static android.media.MediaFormat.KEY_MAX_INPUT_SIZE;
 import static android.media.MediaFormat.KEY_ROTATION;
+
+import com.smarthome.rtmp.utils.Constants;
 
 public class MediaEncoder {
     private static final String TAG = "MediaEncoder";

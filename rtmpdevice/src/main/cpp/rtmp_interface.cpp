@@ -1,12 +1,31 @@
 #include "rtmp_interface.h"
 
-int RtmpInterface::initRtmp(std::string url, int w, int h, int timeOut) {
+int RtmpInterface::initRtmp(std::string url, int w, int h, int timeOut, int publishType) {
 
     RTMP_LogSetLevel(RTMP_LOGDEBUG);
     rtmp = RTMP_Alloc();
     RTMP_Init(rtmp);
     LOGI("time out = %d",timeOut);
     rtmp->Link.timeout = timeOut;
+
+    if(publishType == RTMP_LF_PUBLISH_LIVE)
+    {
+        rtmp->Link.lFlags |= RTMP_LF_PUBLISH_LIVE;
+    }
+    else if(publishType == RTMP_LF_PUBLISH_RECORD)
+    {
+        rtmp->Link.lFlags |= RTMP_LF_PUBLISH_RECORD;
+    }
+    else if(publishType == RTMP_LF_PUBLISH_APPEND)
+    {
+        rtmp->Link.lFlags |= RTMP_LF_PUBLISH_APPEND;
+    }
+    else
+    {
+        rtmp->Link.lFlags |= RTMP_LF_PUBLISH_LIVE;
+    }
+
+
     RTMP_SetupURL(rtmp, (char *) url.c_str());
     RTMP_EnableWrite(rtmp);
 

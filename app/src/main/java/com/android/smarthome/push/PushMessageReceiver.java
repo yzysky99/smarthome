@@ -1,12 +1,10 @@
 package com.android.smarthome.push;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.smarthome.MyApplication;
 import com.android.smarthome.ui.CameraActivity;
 import com.android.smarthome.utils.Constants;
 import com.android.smarthome.utils.Utils;
@@ -14,8 +12,6 @@ import com.android.smarthome.utils.Utils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import static com.android.smarthome.utils.Constants.ASR_RESULT_MSG;

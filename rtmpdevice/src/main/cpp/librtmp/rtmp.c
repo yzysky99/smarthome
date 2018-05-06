@@ -1899,6 +1899,7 @@ SendFCUnpublish(RTMP *r)
 SAVC(publish);
 SAVC(live);
 SAVC(record);
+SAVC(append);
 
 static int
 SendPublish(RTMP *r)
@@ -1924,8 +1925,25 @@ SendPublish(RTMP *r)
     return FALSE;
 
   /* FIXME: should we choose live based on Link.lFlags & RTMP_LF_LIVE? */
-  enc = AMF_EncodeString(enc, pend, &av_live);
-  if (!enc)
+//  enc = AMF_EncodeString(enc, pend, &av_live);
+    if (r->Link.lFlags & RTMP_LF_PUBLISH_LIVE)
+    {
+        enc = AMF_EncodeString(enc, pend, &av_live);
+    }
+    else if (r->Link.lFlags & RTMP_LF_PUBLISH_RECORD)
+    {
+        enc = AMF_EncodeString(enc, pend, &av_record);
+    }
+    else if (r->Link.lFlags & RTMP_LF_PUBLISH_APPEND)
+    {
+        enc = AMF_EncodeString(enc, pend, &av_append);
+    }
+    else
+    {
+        enc = AMF_EncodeString(enc, pend, &av_live);
+    }
+
+    if (!enc)
     return FALSE;
 
   packet.m_nBodySize = enc - packet.m_body;

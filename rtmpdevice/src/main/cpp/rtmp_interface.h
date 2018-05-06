@@ -76,7 +76,7 @@ public:
     /**
      * 初始化
      */
-    virtual int initRtmp(std::string url, int w, int h, int timeOut);
+    virtual int initRtmp(std::string url, int w, int h, int timeOut, int publishType);
 
     /**
      * 发送sps、pps 帧

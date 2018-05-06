@@ -8,10 +8,7 @@ import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 
-import com.smarthome.rtmp.utils.Constants;
-
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
@@ -21,6 +18,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import static android.hardware.Camera.Parameters.FOCUS_MODE_AUTO;
 import static android.hardware.Camera.Parameters.PREVIEW_FPS_MAX_INDEX;
 import static android.hardware.Camera.Parameters.PREVIEW_FPS_MIN_INDEX;
+
+import com.smarthome.rtmp.utils.Constants;
 
 public class VideoDataRecord {
     private static final String TAG = "VideoDataRecord";

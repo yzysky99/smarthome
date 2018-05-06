@@ -1,10 +1,10 @@
 
 {
-	"buildFiles" : [ "E:/Workspaces/smartHome/librtmp/CMakeLists.txt" ],
+	"buildFiles" : [ "/Users/yangzhiyong/Workspaces/smarthome/librtmp/CMakeLists.txt" ],
 	"cFileExtensions" : [ "c" ],
 	"cleanCommands" : 
 	[
-		"D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Workspaces\\smartHome\\librtmp\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+		"/Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86 --target clean"
 	],
 	"libraries" : 
 	{
@@ -12,69 +12,69 @@
 		{
 			"abi" : "x86",
 			"artifactName" : "rtmp-jni",
-			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Workspaces\\smartHome\\librtmp\\.externalNativeBuild\\cmake\\debug\\x86 --target rtmp-jni",
+			"buildCommand" : "/Users/yangzhiyong/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86 --target rtmp-jni",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/rtmpmuxer.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/rtmpmuxer.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/librtmp-jni.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/librtmp-jni.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/librtmp/amf.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/librtmp/amf.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/librtmp/hashswf.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/librtmp/hashswf.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/librtmp/log.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/librtmp/log.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/librtmp/parseurl.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/librtmp/parseurl.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/librtmp/rtmp.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/librtmp/rtmp.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\librtmp  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "E:/Workspaces/smartHome/librtmp/src/main/cpp/flvmuxer/xiecc_rtmp.c",
-					"workingDirectory" : "E:/Workspaces/smartHome/librtmp/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp  -isystem /Users/yangzhiyong/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/src/main/cpp/flvmuxer/xiecc_rtmp.c",
+					"workingDirectory" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/.externalNativeBuild/cmake/debug/x86"
 				}
 			],
-			"output" : "E:/Workspaces/smartHome/librtmp/build/intermediates/cmake/debug/obj/x86/librtmp-jni.so",
-			"toolchain" : "423535169"
+			"output" : "/Users/yangzhiyong/Workspaces/smarthome/librtmp/build/intermediates/cmake/debug/obj/x86/librtmp-jni.so",
+			"toolchain" : "16219309219427368489"
 		}
 	},
 	"toolchains" : 
 	{
-		"423535169" : 
+		"16219309219427368489" : 
 		{
-			"cCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/yangzhiyong/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
 		}
 	}
 }
